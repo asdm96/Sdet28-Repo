@@ -31,8 +31,12 @@ public class HomePage extends WebDriverUtility {
 	@FindBy(linkText ="Sign Out")
 	private WebElement signOutLink;
 	
+
 	@FindBy(name="password textField")
 	private WebElement pwdTextField;
+	@FindBy(name="username textFied")
+	private WebElement unTextField;
+
 	
    //getters methods
 	public WebElement getLogoutImg() {
